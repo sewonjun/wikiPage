@@ -1,7 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
-// TODO: Replace the following with your app's Firebase project configuration
 const firebaseConfig = {
   type: "service_account",
   projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
