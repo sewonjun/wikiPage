@@ -4,7 +4,11 @@ import plugin from "tailwindcss/plugin";
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx,html,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      aspectRatio: {
+        "1/1": "100%",
+      },
+    },
   },
   plugins: [
     plugin(function ({ addComponents }) {
