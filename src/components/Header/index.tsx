@@ -1,9 +1,11 @@
-import logo from "../../assets/WikiPage.svg";
-
 function Header() {
   return (
-    <header>
-      <img src={logo} alt="" width="200px" height={"50px"} />
+    <header className="flex justify-center items-center w-full h-1/12">
+      <div className="flex">
+        <h1 className="m-4 text-3xl font-bold">
+          <a href="/">WikiPage</a>
+        </h1>
+      </div>
     </header>
   );
 }
